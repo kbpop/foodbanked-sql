@@ -1,3 +1,12 @@
-INSERT INTO users(username, email) VALUES 
-    ('john_doe', 'john_doe@ex.com'),
-    ('jane_smith', 'jane_smith@ex.com');
+INSERT INTO users(username) VALUES 
+    ('john_doe'),
+    ('jane_smith');
+
+INSERT INTO products(product_name) VALUES 
+    ('carrots'),
+    ('bananas');
+
+INSERT INTO item_levels(user_id, product_id, quantity) VALUES 
+    (1, 1, 5),
+    (1, 2, 4),
+    (2, 2, 1);
