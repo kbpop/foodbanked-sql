@@ -16,3 +16,7 @@ docker run -d \
 3. docker exec -it my-mysql-container mysql -u MYSQL_USER -p MYSQL_DATABASE
 
 replace the MYSQL_USER with the env name you give and the MYSQL_DATABASE with the env name
+
+## Naming Conventions
+
+All column names should be snake_case and all of the SQL should be uppercase.

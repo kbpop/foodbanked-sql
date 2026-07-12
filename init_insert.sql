@@ -2,7 +2,7 @@ INSERT INTO users(username) VALUES
     ('john_doe'),
     ('jane_smith');
 
-INSERT INTO products(product_name) VALUES 
+INSERT INTO products(p_name) VALUES 
     ('carrots'),
     ('bananas');
 
