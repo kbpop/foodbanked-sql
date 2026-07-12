@@ -4,6 +4,11 @@ This repo is to contain all of the different schemas used in the foodbanked mysq
 
 ## How to get Started 
 
+You can either run ./setup.sh
+
+OR see below
+
+
 1. run - ```docker build -t my-mysql-image .```
 2. run - 
 ```
