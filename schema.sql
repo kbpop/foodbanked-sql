@@ -40,5 +40,5 @@ CREATE TABLE IF NOT EXISTS `item_levels` (
         FOREIGN KEY (product_id)
         REFERENCES products(id),
 
-    PRIMARY KEY (user_id, product_id)
+    PRIMARY KEY (user_id, product_id, inserted_at)
 );
